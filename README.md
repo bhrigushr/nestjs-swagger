@@ -1,5 +1,6 @@
 # nestjs-swagger
 
-## Sample app for Swagger JSON [Issue](https://github.com/nestjs/swagger/issues/1439)
+## Sample app for Swagger JSON [Issue](https://github.com/nestjs/swagger/issues/2048)
 
-Swagger JSON generated is having an error when checked in https://editor.swagger.io/ when using nullable:true field
+Swagger JSON generated should have `requestBody` in the case of the Post route.
+Currnetly its missing in case of one of the route
